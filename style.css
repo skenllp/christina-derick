@@ -758,7 +758,7 @@ p, h1, h2, h3 { margin: 0; }
 
 /* Text sits in the clean paper between the church and the reception artwork */
 .scene--venues .scene-content {
-  padding: calc(var(--I) * var(--a) + 2cqw) 16cqw calc(var(--I) * var(--b) + 1cqw);
+  padding: calc(var(--I) * var(--a) + 2cqw) 16cqw calc(var(--I) * var(--b) + 12cqw);
 }
 
 .scene--venues .divider { margin-block: clamp(1rem, 5cqw, 1.6rem); }
@@ -796,6 +796,8 @@ p, h1, h2, h3 { margin: 0; }
 .venue.is-visible > :nth-child(2) { transition-delay: calc(var(--d, 0s) + .12s); }
 .venue.is-visible > :nth-child(3) { transition-delay: calc(var(--d, 0s) + .24s); }
 .venue.is-visible > :nth-child(4) { transition-delay: calc(var(--d, 0s) + .4s); }
+.venue.is-visible > :nth-child(5) { transition-delay: calc(var(--d, 0s) + .5s); }
+.venue.is-visible > :nth-child(6) { transition-delay: calc(var(--d, 0s) + .6s); }
 .venue.reveal { opacity: 1; transform: none; transition: none; }
 
 .venue-name {
